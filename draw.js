@@ -8,7 +8,7 @@ function printBanner() {
     console.log('\x1b[34m', '██ ███ ██ ██ ██  ██ ██      ██ ██  ██ ██ ██ ██      ');
     console.log('\x1b[34m', ' ███ ███  ██ ██   ████ ███████ ██   ████ ██ ██      ');
     console.log('\x1b[0m');
-    console.log("Hanafuda Bot Auto Grow")
+    console.log("Hanafuda Bot Auto Draw")
     console.log("Join our Telegram channel: https://t.me/winsnip");
 }
 
