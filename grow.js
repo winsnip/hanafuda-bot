@@ -266,8 +266,7 @@ async function commitGrowAction(account) {
 }
 
 async function processAccount(account) {
-  await getInviterID(account);
-
+  // await getInviterID(account);
   await getCurrentUser(account);
 
   const loopCount = await getLoopCount(account);
