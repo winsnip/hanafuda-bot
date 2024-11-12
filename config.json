@@ -1,0 +1,14 @@
+[
+  {
+    "refreshToken": "AMf-xxx",
+    "authToken": "Bearer eyxxxx",
+    "privateKey": "privateKey",
+    "userName": "username hanafuda"
+  },
+  {
+    "refreshToken": "AMf-xxx",
+    "authToken": "Bearer eyxxxx",
+    "privateKey": "privateKey",
+    "userName": "username hanafuda"
+  }
+]
