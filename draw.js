@@ -196,7 +196,7 @@ async function getInviterID(account) {
         }
       });
       const gardenRewardActionCount = response.data?.data?.getGardenForCurrentUser?.gardenStatus?.gardenRewardActionCount;
-      console.log(gardenRewardActionCount, 'ffff')
+
       if (typeof gardenRewardActionCount === 'number') {
         consolewithTime(`${account.userName || 'User'} Draw tersedia: ${gardenRewardActionCount}`);
         return gardenRewardActionCount;
