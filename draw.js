@@ -134,7 +134,7 @@ const executeGardenRewardPayload = {
     }`
   };
 
-async function getInviterID(account) {
+async function getReffUser(account) {
     try {
       consolewithTime(`Mengambil data user...`);
   
@@ -246,7 +246,7 @@ async function getInviterID(account) {
   }
 
   async function processAccount(account) {
-    // await getInviterID(account);
+    // await getReffUser(account);
     await getCurrentUser(account);
   
     const loopCount = await getLoopCount(account);
